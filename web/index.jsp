@@ -11,6 +11,6 @@
     <title>一个小demo</title>
   </head>
   <body>
-  <a href="${pageContext.request.contextPath}/holle">holleworld</a>
+  <a href="${pageContext.request.contextPath}/holle.action">holleworld</a>
   </body>
 </html>

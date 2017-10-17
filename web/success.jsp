@@ -11,6 +11,11 @@
     <title>一个小demo</title>
 </head>
 <body>
-$END$
+<form action="${pageContext.request.contextPath}/holle2.action" method="post">
+    用户名：<input type="text" name="name" /><br/>
+    密码：<input type="password" name="age" /><br/>
+
+    <input type="submit" value="注册" />
+</form>
 </body>
 </html>

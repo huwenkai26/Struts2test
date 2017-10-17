@@ -3,7 +3,7 @@ package com.jlk.lll;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
-public class Holleworld extends ActionSupport implements ModelDriven<Userinfo>{
+public class Holleworld2 extends ActionSupport implements ModelDriven<Userinfo>{
     public Userinfo getUserinfo() {
         return userinfo;
     }

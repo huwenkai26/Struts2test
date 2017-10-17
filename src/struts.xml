@@ -8,8 +8,11 @@
     <package name="p1" extends="struts-default">
         <action name="holle" class="com.jlk.lll.Holleworld" method="getHello">
             <result name="success">/success.jsp</result>
-           <param name="name">hu</param>
-           <param name="age">18</param>
         </action>
+
+        <action name="holle2" class="com.jlk.lll.Holleworld2" method="getHello">
+            <result name="success">/index.jsp</result>
+        </action>
+
     </package>
 </struts>
